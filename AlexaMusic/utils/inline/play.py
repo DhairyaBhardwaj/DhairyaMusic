@@ -51,7 +51,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋", url=""),
+            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋", url="https://t.me/Dhairya_bh"),
         ],
         [
             InlineKeyboardButton(
@@ -78,7 +78,7 @@ def telegram_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋", url=""),
+            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋", url="https://t.me/Dhairya_bh"),
         ],
         [
             InlineKeyboardButton(
@@ -100,7 +100,7 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋", url=""),
+            InlineKeyboardButton(text="𝖮𝗐𝗇𝖾𝗋", url="https://t.me/Dhairya_bh"),
         ],
         [
             InlineKeyboardButton(
